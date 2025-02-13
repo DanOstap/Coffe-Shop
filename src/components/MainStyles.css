@@ -1,0 +1,15 @@
+.Main-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("../../src/image/coffe-art.jpg") no-repeat center center/cover;
+}
+.Main-menu{
+    width: 100%;
+}
+.Main-menu h1{
+    color: white;
+    font-family: Snell Roundhand, cursive;
+}
