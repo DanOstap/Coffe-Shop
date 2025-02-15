@@ -7,9 +7,63 @@
     background: url("../../src/image/coffe-art.jpg") no-repeat center center/cover;
 }
 .Main-menu{
-    width: 100%;
+    height: 5vh;
+}
+.Main-menu div{
+    position: relative;
+    height: 100%;
 }
 .Main-menu h1{
     color: white;
     font-family: Snell Roundhand, cursive;
+}
+.Menu-Logo{
+    width: 20%;
+    float: left;
+}
+ .Menu-Logo h1{
+     margin-left: 10%;
+ }
+.Menu-buttons{
+    width: 40%;
+    float: left;
+}
+.Menu-buttons button{
+
+    height: 100%;
+    width: 10vw;
+    border: none;
+    background-color: initial;
+    color: white;
+    font-size: 125%;
+}
+.Menu-buttons button:hover{
+    border: whitesmoke 3px solid;
+}
+.Menu-LogIn-SingUp{
+    width:15%;
+    float : right;
+}
+.Menu-LogIn-SingUp button{
+    color: white;
+    background-color: initial;
+    font-size: 125%;
+    cursor: pointer;
+    transition: all 500ms;
+    border: none;
+    width: 5vw;
+    height: 100%;
+}
+.Menu-LogIn-SingUp button:nth-last-child(1){
+    color: black;
+    background-color: #F9C06A;
+    border-radius: 25px;
+}
+.Menu-LogIn-SingUp button:nth-last-child(1):hover{
+    transform: translateY(4px);
+    transition-duration: 0.5s;
+    color: white;
+    background-color: initial;
+    border: #F9C06A 2px solid;
+
 }
