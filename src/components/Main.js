@@ -10,13 +10,21 @@ function  Main() {
                 <div className="Menu-buttons">
                     <button>Home</button>
                     <button>Store</button>
-                    <button>Log in</button>
-                    <button>Sing Up</button>
+                    <button>About us</button>
+                    <button>Contact us</button>
                 </div>
                 <div className="Menu-LogIn-SingUp">
                     <button> Sign In</button>
                     <button> Sign Up</button>
                 </div>
+            </div>
+            <div className="Main-label">
+                <p>We’ve got your morning covered with</p>
+                <h1>Coffee</h1>
+                <p>It is best to start your day with a cup of coffee. Discover the
+                    best flavours coffee you will ever have. We provide the best
+                    for our customers.</p>
+                <button className="buttons-style">Order now</button>
             </div>
         </div>
     );
